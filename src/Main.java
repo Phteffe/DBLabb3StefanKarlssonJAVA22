@@ -139,7 +139,6 @@ public class Main {
             String inputName = scanner.nextLine();
 
             pstmt.setString(1, inputName);
-            //
             ResultSet rs = pstmt.executeQuery();
 
             while (rs.next()) {
